@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/seekBar1"
+        app:layout_constraintBottom_toTopOf="@+id/celsiusSeekBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent" />
@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <SeekBar
-        android:id="@+id/seekBar1"
+        android:id="@+id/celsiusSeekBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="500"
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/seekBar1"
+        app:layout_constraintBottom_toTopOf="@+id/celsiusSeekBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent" />
